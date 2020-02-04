@@ -21,6 +21,9 @@ age = input('how old would you like to be?')
 print(f'Hello {name}, you are now a {species}, your age is {age}, your eyes are {eye_colour} and your hair colour is {hair_colour}!')
 
 # Section 2 - Calculate in what year was the person born? and responde back.
+new_age = input('how old are you again?')
+birth_year = 2020 - int(new_age)
 
+print(f'since you said you was {new_age}, you was born in {birth_year}!')
 
 
