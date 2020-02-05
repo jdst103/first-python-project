@@ -30,13 +30,13 @@ age = input('how old would you like to be?     :')
 age = age.strip().lower()
 
 # Print them back to the user as conversation
-print(f'Hello {name} {last_name}, you are now a {species}, your age is {age}, \n your eyes are {eye_colour} and your hair colour is {hair_colour}!')
+print(f'Hello {name} {last_name}, you are now a {species}, your age is {age}, \nyour eyes are {eye_colour} and your hair colour is {hair_colour}!')
 
 # Section 2 - Calculate in what year was the person born? and responde back.
-new_age = input('\n how old are you again? (please use numerical values in years)      :')
+new_age = input('\nhow old are you again? (please use numerical values in years)      :')
 new_age = new_age.strip()
 birth_year = 2020 - int(new_age)
 
-print(f'\n Since you said you was {new_age}, you was born in {birth_year}!')
+print(f'\nSince you said you was {new_age}, you was born in {birth_year}!')
 
 
